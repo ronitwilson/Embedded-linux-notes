@@ -2,7 +2,7 @@
 ### example using the new GPIO api above linux 4.8
 https://blog.lxsang.me/post/id/33
 
-'''
+```
 #include <linux/gpio.h>
 #include <unistd.h>
 #include <fcntl.h>
@@ -262,4 +262,4 @@ int main(int argc, char *const *argv)
     }
     return 0;
 }
-'''
+```
